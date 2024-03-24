@@ -113,3 +113,74 @@
 //   }
 
 //   console.log(calculateTotal(5));
+
+
+
+// function calculateEvenTotal(number) {
+//     let sum = 0;
+   
+//      for (let i = 0; i <= number; i++) {
+//     console.log(i);
+//        if (!(i % 2)) {
+//         console.log(`${i} "before"`);
+//     sum += i;
+//    } 
+//    }
+//      return sum; 
+//  }
+
+
+
+// const start = 6;
+// const end = 17;
+// let number;
+
+// for (let i = start; i < end; i++) {
+//   if (!(i % 5)) {
+//     number = i;
+//     console.log(i);
+//     break;
+//   }
+// }
+
+
+
+// function findNumberFromFive(max, target) {
+// 	console.log("Log in the body of the function before the cycle");
+
+//   for (let i = 5; i <= max; i += 1) {
+//     console.log("Current counter value i:", i);
+
+//     if (i === target) {
+//       console.log(`Found the number ${target}, interrupt the cycle`);
+// 			break;
+//     }
+//   }
+
+//   console.log("Log in body function after cycle");
+// }
+
+// findNumber(10, 6);
+// console.log("Log after exiting function");
+
+
+
+// function findNumberFromFive(max, target) {
+// 	console.log("Log in the body of the function before the cycle");
+
+// 	for (let i = 5; i <= max; i += 1) {
+// 	    console.log("Current counter value i:", i);
+	
+// 	    if (i === target) {
+// 	      console.log(`Found the number ${target}, we make a return, interrupting the loop and function`);
+// 				return i;
+// 	    }
+// 	  }
+
+//   // Цей console.log не виконується
+//   console.log("Log in body function after cycle");
+// }
+
+// const result = findNumber(10, 6);
+// console.log("Log after exiting function");
+// console.log(`Result of function execution ${result}`);
